@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>A6.8</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="container justify-content-between">
+		<h1>Управляемый кнопками прогрессбар</h1>
+		<h2>(от 0 до 100%)</h2>
+			<div class="col">
+				<div class="progress">
+					<div id="my-proress-bar" class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-btn">
+				<input id="btn1" type="button" class="button" value="+1%" alt="1">
+			</div> 
+			<div class="col col-btn">
+				<input id="btn3" type="button" class="button" value="+3%" alt="3">
+			</div>
+			<div class="col col-btn">
+				<input id="btn7" type="button" class="button" value="+7%" alt="7">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-btn">
+				<input id="btnm1" type="button" class="button" value="-1%" alt="1">
+			</div> 
+			<div class="col col-btn">
+				<input id="btnm3" type="button" class="button" value="-3%" alt="3">
+			</div>
+			<div class="col col-btn">
+				<input id="btnm7" type="button" class="button" value="-7%" alt="7">
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./js/progressbar.js"></script>
+</body>
+</html>
